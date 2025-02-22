@@ -22,8 +22,7 @@ int main(){
 	for (int i = 0;i <= 3;i++){
 		int ans = IN.find(eDNA[i]);
 		if (ans != -1){
-			cout << "It is ";
-			cout << NAME[i] << endl;
+			cout << "It is " << NAME[i] << endl;
 		}else{
 			cout << "It is not Carp"<< endl;
 		}
